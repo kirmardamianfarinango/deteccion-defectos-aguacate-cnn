@@ -1,22 +1,2 @@
 # deteccion-defectos-aguacate-cnn
 Sistema de detección automática de defectos en aguacates mediante redes neuronales convolucionales, con inferencia en tiempo real.
-
-Título: Clasificador de aguacate – Inferencia en tiempo real
-
-Contenido sugerido:
-
-Instalación:
-
-pip install ultralytics opencv-python
-
-Entrenamiento:
-
-yolo classify train model=yolov8n-cls.pt data=dataset_cls imgsz=224 epochs=30 batch=32
-
-Inferencia:
-
-python3 clasificar_aguacate.py
-
-Notas:
-
-Editar MODEL_PATH y CAM_ID según el equipo.
